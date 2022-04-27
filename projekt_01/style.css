@@ -1,0 +1,31 @@
+img {
+    height: 50px;
+    opacity: 0.5;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: rgb(61, 61, 61);
+    background-color: bisque;
+    background-image: url("https://newevolutiondesigns.com/images/freebies/fantasy-wallpaper-12.jpg");
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+a {
+    color: rgb(183, 138, 226);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.75);
+}

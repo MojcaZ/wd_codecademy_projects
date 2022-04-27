@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    height: 69px;
+}
+
+.left-nav {
+    margin-right: auto;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.right-nav a {
+    color: seashell;
+    margin: 10px;
+}
+
+/*main content*/
+
+main {
+    margin-top: 69px;
+}
+
+.mission-container {
+    background-image: url("./pics/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mission-text {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-teas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: auto;
+}
+
+.featured-pics img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.featured-pics p {
+    margin-top: 0;
+    font-weight: 700;
+}
+
+#locations {
+    background-image: url("./pics/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto;
+    overflow: auto; 
+}
+
+.locations-title {
+    padding-top: 30px;
+}
+
+.address-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    height: auto;
+}
+
+.address p {
+    line-height: 2;
+}
+
+/* footer */
+.foot-address {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;  
+}
+
+.foot-address h5, .foot-address p {
+    font-weight: 700;
+    font-size: 20px;
+}
